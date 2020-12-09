@@ -1,0 +1,46 @@
+body {
+    background:url("image.jpg");
+    background-size:cover;
+    margin: 0px;
+    padding: 0px;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 20px;
+    height: 10px;
+}
+header{
+    background-color: rgb(155, 155, 155, 0.20);
+}
+header nav ul li a:hover{
+    color:blue;
+    width: 10px;
+    padding: 20px;
+    height: 10px;
+    background-color: brown;
+    transform:scale(4.1) rotate(10deg);
+}
+header form {
+    text-align: right ;
+    padding: 0px;
+    
+}
+ .action-button{
+    text-align:left ;
+
+ }
+.action-button{
+    background-color: blue;
+    color:white;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border-bottom: 5px solid green;
+    text-shadow: 0px -4px #521455;
+    transition: all 4s;
+    
+}
+
